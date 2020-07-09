@@ -19,28 +19,28 @@
    
    **********************************************************************
    
-   Este arquivo é parte do programa RichBlocks
+   Este arquivo Ã© parte do programa RichBlocks
    
-   RichBlocks é um software livre: você pode redistribui-lo e/ou
-   modifica-lo dentro dos termos da Licença Pública Geral GNU como 
-   publicada pela Fundação do Software Livre (FSF); na versão 2 da 
-   Licença, ou (na sua opnião) qualquer versão.
+   RichBlocks Ã© um software livre: vocÃª pode redistribui-lo e/ou
+   modifica-lo dentro dos termos da LicenÃ§a PÃºblica Geral GNU como 
+   publicada pela FundaÃ§Ã£o do Software Livre (FSF); na versÃ£o 2 da 
+   LicenÃ§a, ou (na sua opniÃ£o) qualquer versÃ£o.
 
-   Este programa é distribuido na esperança que possa ser  util, 
-   mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
-   MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
-   Licença Pública Geral GNU para maiores detalhes.
+   Este programa Ã© distribuido na esperanÃ§a que possa ser  util, 
+   mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÃ‡Ã‚O a qualquer
+   MERCADO ou APLICAÃ‡ÃƒO EM PARTICULAR. Veja a
+   LicenÃ§a PÃºblica Geral GNU para maiores detalhes.
 
-   Você deve ter recebido uma cópia da Licença Pública Geral GNU
-   junto com este programa, se não veja em <http://www.gnu.org/licenses/>.
+   VocÃª deve ter recebido uma cÃ³pia da LicenÃ§a PÃºblica Geral GNU
+   junto com este programa, se nÃ£o veja em <http://www.gnu.org/licenses/>.
 -->
 
 <WindowInterfaceRia>
 
-	<!-- Janelas Padrão -->
+	<!-- Janelas PadrÃ£o -->
 	<window name="change_background"
 			title="Alterar Plano de Fundo"
-			description="Janela para alteração do plano de fundo"
+			description="Janela para alteraÃ§Ã£o do plano de fundo"
 			defaultTop="100"
 			defaultLeft="300"
 			defaultWidth="300"
@@ -60,6 +60,10 @@
 			defaultFooter="Alterando Plano de Fundo">
 	</window>	
 	
+	<!--
+		URL do google carregada com uma soluÃ§Ã£o "hacky" de:
+		https://stackoverflow.com/questions/8700636/how-to-show-google-com-in-an-iframe#comment93710711_8700754
+	-->
 	<window name="google"
 			title="Google"
 			description="Google"
@@ -69,7 +73,7 @@
 			defaultHeight="500"
 			minWidth="120"
 			minHeight="120" 
-			pageSrc="http://www.google.com.br"
+			pageSrc="https://www.google.com/search?igu=1"
 			ajax="false"
 			newInstance="true"
 			forceZindex="true"
@@ -135,7 +139,7 @@
 		defaultHeight="600"
 		minWidth="250"
 		minHeight="250" 
-		pageSrc="http://jaydson.blogspot.com"
+		pageSrc="https://jaydson.blogspot.com"
 		ajax="false"
 		newInstance="true"
 		forceZindex="true"
